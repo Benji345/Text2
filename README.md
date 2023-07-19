@@ -19,6 +19,6 @@ for line in string.gmatch(Response.Body, '([^\n]+)') do
     else
         Message(line)
     end
-    wait(2)
+    wait(1.5)
     linec = linec + 1
 end
